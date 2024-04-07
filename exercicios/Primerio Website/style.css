@@ -1,0 +1,126 @@
+@charset "uft8";
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+    font-family:"android" ;
+    src:url(/pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+  background-color: #55b412;
+  width: auto;
+  height: 130px;
+  color: white;
+  text-align: center;
+  box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.469);
+}
+
+#titule {
+  padding: 20px;
+  text-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.375);
+}
+nav {
+  background-color: #1e4005b8;
+}
+nav > a {
+  text-decoration-line: none;
+  color: white;
+  margin: 10px;
+}
+body {
+  background-color: #56b41295;
+}
+
+main {
+  background-color: white;
+  width: 70%;
+  margin:auto;
+  padding: auto;
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.418);
+  border-radius: 0px 0px 5px 5px;
+}
+
+div {
+  background-color: #1e4005b8;
+  text-align: center;
+}
+aside {
+  margin: 5px;
+}
+aside > h3 {
+  background-color: #1e4005b8;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+aside {
+  background-color: #c5ebd6;
+  border-radius: 5px;
+  margin: 15px 10px 20px 10px;
+}
+p {
+  text-indent: 20px;
+  padding: 5px;
+  font-weight:bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-android {
+  color: #55b412;
+}
+
+#link_android{
+    color: #55b412;
+    text-decoration: none;
+
+}
+
+#link_android::after{
+  content:"🔗"; 
+} 
+
+#last-phrase{
+padding-bottom: 20px;
+text-indent: 20px;
+}
+
+
+footer{
+    background-color:#1e4005b8 ;
+    color: white;
+    text-align: center;
+    font-weight:bolder ; 
+    padding: 5px;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+h2 , h3 {
+    font-family:"android";
+    padding: 10px;
+}
+.list_android{
+    list-style-position: inside;
+    columns: 2;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.list_android ::before{
+    content:"✅";
+    padding: 5px;
+}
+h2{
+    background-image:linear-gradient(to right,#54af12b8,white ) ;
+    
+}
+
+img{
+  width: 100%;
+}

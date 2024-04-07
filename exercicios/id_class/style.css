@@ -1,0 +1,29 @@
+@import "UFT-8";
+
+body{
+    background-color: rgb(125, 196, 125);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(3, 62, 3);
+}
+
+h2{
+    color: rgb(63, 63, 63);
+}
+
+#principal {
+color: rgba(2, 175, 19, 0.709);
+text-align: center;
+background-color: rgb(4, 47, 12);
+}
+
+.basico{
+    color: rgb(46, 138, 104);
+}
+
+.destaque{
+    color: rgba(255, 255, 0, 0.667);
+
+}
