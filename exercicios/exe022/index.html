@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de imagem de fundo</title>
+    <style>
+        div.quadrado{
+            display:inline-block;
+            border-radius: 10px;
+            background-color: lightseagreen;
+            border:1px solid rgb(255, 255, 255);
+            height:100px;
+            width:200px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bolder;
+        }
+        
+body{
+    background-image:url(/exercicios/exe022/imagens/wallpaper004.jpg);
+}
+    #q1{
+        background-image:linear-gradient(to bottom , rgb(58, 58, 150) , white);
+        
+    }
+    #q2{
+        background-image:linear-gradient(to bottom , yellow ,white )
+    }
+    #q3{
+        background-image:linear-gradient(to bottom, orange , white);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #q1:hover{
+        background: rgb(58 ,58,150);
+        width: 90px;
+        height:80px
+    }
+    #q2:hover{
+        background:yellow;
+        width:180px ;
+        height:160px;
+    }
+    #q3:hover{
+        background: orange;
+        width: 360px;
+        height: 320px;
+
+    }
+    </style>
+  </head>
+  <body>
+    <div class="quadrado" id="q1"><p><a href="#">Small</a></p></div>
+    <div class="quadrado" id="q2"><p><a href="#">Medium</a></p></div>
+    <div class="quadrado"id="q3"><p><a href="#">Large</a></p></div>
+  </body>
+</html>
